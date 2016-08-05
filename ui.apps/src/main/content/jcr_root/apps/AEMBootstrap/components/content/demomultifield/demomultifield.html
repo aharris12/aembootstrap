@@ -1,0 +1,13 @@
+Demo MultifieldPanel component
+
+<p data-sly-test="${properties.heading}"> ${properties.heading}</p>
+<p data-sly-test="${properties.desc}"> ${properties.desc}</p>
+<div data-sly-use.linkModel="aem.bootstrap.core.models.DemoMultiFieldModel">
+    ${linkModel.message}
+    <div data-sly-test="${linkModel.list}" data-sly-list.list="${linkModel.list}">
+
+        <p><b>page:</b> ${list.linktext}</p>
+        <p><b>path:</b> ${list.linkURL}</p>
+    </div>
+</div>
+
