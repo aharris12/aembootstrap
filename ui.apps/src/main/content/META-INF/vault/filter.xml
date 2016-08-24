@@ -5,4 +5,5 @@
     </filter>
     <filter root="/apps/sling" />
     <filter root="/etc/designs/AEMBootstrap"/>
+    <filter root="/etc/tags/acmeideas"/>
 </workspaceFilter>

@@ -31,7 +31,7 @@ public class IdeationStatusExtension implements ForumOperationExtension {
     @Override
     public void beforeAction(Operation op, Session sessionUsed, Resource requestResource, Map<String, Object> props)
         throws OperationException {
-        if (ResourceUtil.isA(requestResource, "acme/components/ideation/forum")) {
+        if (ResourceUtil.isA(requestResource, "AEMBootstrap/components/ideation/forum")) {
             List<String> tags = new ArrayList<String>();
             if (props.containsKey("tags")) {
                 final Object v = props.get("tags");
