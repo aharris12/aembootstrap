@@ -51,4 +51,5 @@
                     sling:resourceType="social/console/components/clientlibslist"/>
         </par>
     </jcr:content>
+    <communities-comments-example/>
 </jcr:root>
